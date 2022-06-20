@@ -1,7 +1,11 @@
 ::selection,
 ::-moz-selection {
-  color: var(--color-bg);
-  background-color: var(--color-primary);
+  color: var(--color-fg);
+  background-color: var(--color-selection);
+}
+
+p.caption {
+  color: var(--color-caption);
 }
 
 body {
@@ -18,7 +22,7 @@ body {
 
 .pag-current a,
 .pag-current a:hover {
-  color: var(--color-focus);
+  color: var(--color-active);
 }
 
 .title-sub,
@@ -61,7 +65,7 @@ footer {
   h4,
   h5,
   h6 {
-    color: var(--color-primary);
+    color: var(--color-header);
   }
 
   h1,

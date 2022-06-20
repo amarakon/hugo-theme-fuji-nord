@@ -1,5 +1,5 @@
 [sidebarToc]
-    other = "Table of Contents"
+    other = "Contents"
 
 [sidebarPages]
     other = "Pages"
@@ -18,9 +18,6 @@
 
 [footerPoweredEnd]
     other = " "
-
-[postMetaNoTag]
-    other = "No tag"
 
 [postMetaWordCount]
     one = "{{.Count}} word"
