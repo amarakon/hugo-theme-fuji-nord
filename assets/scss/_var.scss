@@ -21,6 +21,9 @@ $body-font-size: 16px !default;
 
 $width-md: 768px;
 
+$light-color-caption: #6A7894 !default;
+$light-color-visited: #B48EAD !default;
+$light-color-selection: #81a1c1 !default; // https://irocore.com/aofuji/
 $light-color-header: #A3BE8C !default; // https://irocore.com/aofuji/
 $light-color-primary: #81A1C1 !default; // https://irocore.com/aofuji/
 $light-color-secondary: #81A1C1 !default; // https://irocore.com/fujimurasaki/
@@ -43,15 +46,6 @@ $dark-color-font: #D8DEE9 !default; // https://irocore.com/gin-iro/
 $dark-color-divider: #4C566A !default; // Discord
 $dark-color-bg: #3B4252 !default; // Discord
 $dark-color-codebg: #2E3440 !default; // kai GitHub
-
-/* @font-face {
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url('https://cdn.jsdelivr.net/gh/dsrkafuu/dsr-cdn-main@1/fonts/product_sans/product_sans_700.woff2')
-    format('woff2');
-} */
 
 @font-face {
   font-family: "Liberation Sans";
