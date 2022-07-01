@@ -1,5 +1,9 @@
 @mixin light {
   --color-mode: 'light';
+  --color-visited: #{$light-color-visited};
+  --color-caption: #{$light-color-caption};
+  --color-selection: #{$light-color-selection};
+  --color-header: #{$light-color-header};
   --color-primary: #{$light-color-primary};
   --color-secondary: #{$light-color-secondary};
   --color-mute: #{$light-color-mute};
