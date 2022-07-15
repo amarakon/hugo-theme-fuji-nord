@@ -19,6 +19,9 @@
 [footerPoweredEnd]
     other = " "
 
+[postMetaNoTag]
+    other = "No tags"
+
 [postMetaWordCount]
     one = "{{.Count}} word"
     other = "{{.Count}} words"

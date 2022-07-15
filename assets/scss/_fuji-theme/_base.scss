@@ -1,6 +1,7 @@
 @mixin light {
   --color-mode: 'light';
   --color-visited: #{$light-color-visited};
+  --color-active: #{$light-color-active}
   --color-caption: #{$light-color-caption};
   --color-selection: #{$light-color-selection};
   --color-header: #{$light-color-header};
@@ -34,6 +35,7 @@
 @mixin dark {
   --color-mode: 'dark';
   --color-visited: #{$dark-color-visited};
+  --color-active: #{$dark-color-active};
   --color-caption: #{$dark-color-caption};
   --color-selection: #{$dark-color-selection};
   --color-header: #{$dark-color-header};
