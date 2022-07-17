@@ -10,7 +10,7 @@ $font-weight-bold: 600;
 $font-weight-semibold: 600;
 $font-weight-normal: 400;
 $font-weight-light: 400;
-$body-font: 'Nerd Font Symbols', 'Liberation Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Arial', 'Helvetica Neue',
+$body-font: 'Liberation Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Arial', 'Helvetica Neue',
   'Helvetica', 'PingFang SC', 'Hiragino Sans GB', 'Source Han Sans CN', 'Source Han Sans SC',
   'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif !default;
 $mono-font: 'Liberation Mono', 'SF Mono', 'Consolas', -apple-system, BlinkMacSystemFont, 'SF Pro Text',
@@ -56,11 +56,4 @@ $dark-color-codebg: #2E3440 !default; // kai GitHub
 @font-face {
   font-family: "Liberation Mono";
   src: url("/amarakon.com/fonts/LiberationMono-Regular.ttf");
-}
-
-@font-face {
-  font-family: 'Nerd Font Symbols';
-  src: url("/fonts/Symbols-2048-em Nerd Font Complete.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
