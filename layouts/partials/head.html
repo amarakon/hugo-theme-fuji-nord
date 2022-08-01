@@ -11,11 +11,11 @@
 {{ partial "favicon.html" . }}
 <!-- seo metadata -->
 {{ if and (.IsHome) (.Site.Params.subTitle) }}
-<title>{{ .Site.Title }} - {{ .Site.Params.subTitle }}</title>
+<title>{{ .Site.Title }} – {{ .Site.Params.subTitle }}</title>
 {{ else if .IsHome }}
 <title>{{ .Site.Title }}</title>
 {{ else }}
-<title>{{ .Title }} - {{ .Site.Title }}</title>
+<title>{{ .Title }} – {{ .Site.Title }}</title>
 {{ end }}
 {{ if or (.Params.author) (.Site.Params.author) }}
 <meta name="author" content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}" />
